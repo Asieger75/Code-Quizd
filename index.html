@@ -7,7 +7,12 @@
     <title>JS Timed Quiz</title>
 </head>
 <body>
-    <button id="startButton" type="startButton">Start Here!</button>
+    <button onclick="setTimeout(myFunction, 30000);" id="startButton" type="startButton">Start Here!</button>
     <script src="JS/quiz.js"></script>
+    <script>
+        function myFunction() {
+          alert('Time is Up!');
+        }
+        </script>
 </body>
 </html>

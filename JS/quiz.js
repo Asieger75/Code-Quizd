@@ -1,4 +1,4 @@
-var timer = 150;
+var timer = 30000;
 var score = 0;
 var start = document.getElementById("startButton");
 console.log(start);
@@ -62,3 +62,6 @@ let questions = [
         correct : "2"
     }
 ]
+
+//use this button with the done/ calculate final score button to prevent the apprearance of the time's up alert
+// <button onclick="clearTimeout(myVar)">Stop it</button>
