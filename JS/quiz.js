@@ -44,7 +44,7 @@ function checkAnswers(button,correct)
         score++;
         console.log(score);
     }else{
-        timer -= 10;
+        timer -= 4000;
         console.log(timer);
     }
 
@@ -60,7 +60,34 @@ let questions = [
         selection3 : "neither",
         selection4 : "both",
         correct : "2"
-    }
+    },
+
+    {
+        question : "Is Null an object?",
+        selection1 : "Yes",
+        selection2 : "No",
+        selection3 : "It depends",
+        selection4 : "Bannana",
+        correct : "1"
+    },
+
+    {
+        question : "What is the function for creating a prompt box?",
+        selection1 : "alert()",
+        selection2 : "confirm()",
+        selection3 : "prompt()",
+        selection4 : "window.create()",
+        correct : "3"
+    },
+
+    {
+        question : "What is the file extension for a javascript file?",
+        selection1 : ".html",
+        selection2 : ".md",
+        selection3 : ".java",
+        selection4 : ".js",
+        correct : "4"
+    },
 ]
 
 //use this button with the done/ calculate final score button to prevent the apprearance of the time's up alert
